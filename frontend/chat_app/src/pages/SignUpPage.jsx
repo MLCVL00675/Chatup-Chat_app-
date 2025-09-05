@@ -25,7 +25,7 @@ const SignUpPage = () =>{
     else if (!formData.email.trim()) return toast.error("Email is required");
     else if (!/\S+@\S+\.\S+/.test(formData.email)) return toast.error("Invalid email format");
     else if (!formData.password) return toast.error("Password is required");
-    else if ((!formData.password.length) < 6) return toast.error(" must be at least 6 characters");
+    else if ((formData.password.length) <= 6) return toast.error(" must be at least 6 characters");
     }
     return true;
   };
