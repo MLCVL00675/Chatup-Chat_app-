@@ -1,0 +1,23 @@
+{
+  "name": "yt-project's",
+  "version": "1.0.0",
+  "description": "This is a real-time chat app which i have worked on to get more exposure to MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm install --prefix backend && npm install --prefix frontend/chat_app && npm run build --prefix frontend/chat_app",
+    "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLCVL00675/Chatup-Chat_app-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MLCVL00675/Chatup-Chat_app-/issues"
+  },
+  "homepage": "https://github.com/MLCVL00675/Chatup-Chat_app-#readme"
+}
