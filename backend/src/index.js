@@ -22,19 +22,22 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
+const PORT = process.env.PORT;
+const __dirname = path.resolve();
+
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
-const PORT = process.env.PORT;
-const __dirname = path.resolve();
+
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../frontend/chat_app/dist")));
 
-  app.get("/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../frontend/chat_app", "dist", "index.html"));
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../frontend/chat_app/dist/index.html"));
   });
 }
+
 
 
 
