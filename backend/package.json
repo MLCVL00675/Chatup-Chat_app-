@@ -21,7 +21,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.5",
     "socket.io": "^4.8.1",
-    "yt-project's": "file:.."
+    "yt-project's": "file:..",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
