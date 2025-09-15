@@ -1,8 +1,6 @@
 ﻿# Chatup-Chat_app-
 
-This is a real-time chat app which i have worked on to get more exposure to MERN Stack 
-
-
+This is a real-time chat app which i have worked on to get more exposure to MERN Stack <br>
 [Go have a look at it]->[https://chatup-chat-application.onrender.com/]
 
 Highlights:
@@ -27,6 +25,7 @@ CLOUDINARY_CLOUD_NAME = //From CLOUDINARY Website
 CLOUDINARY_API_KEY = //From CLOUDINARY Website
 CLOUDINARY_API_SECRET = //From CLOUDINARY Website
 ```
+
 
 
 
